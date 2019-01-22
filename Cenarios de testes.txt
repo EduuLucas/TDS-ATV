@@ -1,0 +1,28 @@
+Cenário 1: Cadastro de usuário
+	
+	1. Cadastro válido
+	2. Cadastro de dois usuários iguais
+	3. Cadastro de usuário com todos os campos vazios
+
+Cenário 2: Deletar usuário
+	
+	1. Manter os gastos inseridos
+	2. Manter os gastos no histórico
+	3. Manter a ação no histórico
+
+Cenário 3: Inserir gastos
+	
+	1. Inserir gastos de valor 0
+	2. Inserir gastos negativos
+	3. Inserir gastos com mais de duas casas decimais
+
+Cenário 4: Deletar gastos
+
+	1. Deletar gastos de outra pessoa
+	2. Manter a ação no histórico
+	3. 
+
+Cenário 5: Editar usuário
+	
+	1. Edição válida
+	2.
