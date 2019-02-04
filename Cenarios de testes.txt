@@ -1,28 +1,29 @@
-Cenário 1: Cadastro de usuário
+Cenário 1: Login
+
+	1. Login válido
+	2. Login inválido
+	3. Login em branco
+
+Cenário 2: Cadastro de usuário
 	
 	1. Cadastro válido
-	2. Cadastro de dois usuários iguais
-	3. Cadastro de usuário com todos os campos vazios
+	2. Cadastro inválido
+	3. Cadastro de usuário com campos vazios
 
-Cenário 2: Deletar usuário
+Cenário 3: Deletar usuário
 	
-	1. Manter os gastos inseridos
-	2. Manter os gastos no histórico
-	3. Manter a ação no histórico
+	1. Deletar usuário com índice inválido
+	2. Deletar usuário administrador
+	3. Deletar usuário válido
 
-Cenário 3: Inserir gastos
+Cenário 4: Inserir gastos
 	
 	1. Inserir gastos de valor 0
 	2. Inserir gastos negativos
-	3. Inserir gastos com mais de duas casas decimais
+	3. Inserir gastos válido
 
-Cenário 4: Deletar gastos
+Cenário 5: Deletar gastos
 
-	1. Deletar gastos de outra pessoa
-	2. Manter a ação no histórico
-	3. 
-
-Cenário 5: Editar usuário
-	
-	1. Edição válida
-	2.
+	1. Deletar gasto vazio
+	2. Deletar gasto válido
+	3. Deletar gasto inexistente
